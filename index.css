@@ -1,0 +1,154 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #616971;
+  }
+
+.top-bar {
+    background: #03ab83;
+    height: 2.8rem;
+    padding: .5rem 0;
+    color: white;
+    font-size: 1.1rem;
+  }
+#categories:hover {
+  text-decoration: underline;
+}
+.navbar { 
+box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+z-index: 1;}
+
+
+  #navlist {
+    font-size: 1.15rem;
+    letter-spacing: .1rem;
+  }
+
+  .nav-item {
+    padding: .4rem;
+  }
+
+  .nav-link:hover{
+    color: #03ab83!important;
+  }
+
+  #shopname {
+      font-size: 1.8rem;
+  }
+
+
+#carousel {
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+  }
+  .carousel-inner {
+    max-height: 48rem!important;
+  }
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+transition: transform 1s ease;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+
+.fixed-background {
+  overflow: hidden;
+}
+.bg-custom{
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  border-radius: 1rem;
+}
+.carousel-caption h1 {
+  font-size: 4rem;
+  text-shadow: .1rem .1rem .1rem rgba(0, 0, 0, .3);
+}
+.carousel-caption h3 {
+    font-size: 1.5rem;
+    color:#ebebeb;
+  }
+.border-primary {
+  border-top: .2rem solid #4981b3!important;
+}
+
+.btn-lg {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  border-width: medium;
+  border: .1rem solid white;
+}
+
+.btn-lg:hover,
+.btn-primary:focus {
+  background-color: #03ab83!important;
+  border: .05rem solid #f5f8fc!important;
+}
+.learnmore:hover,
+.learnmore:focus {
+  background-color: #03ab83!important;
+  border: .05rem solid #f5f8fc!important;
+  color: white!important;
+}
+.learnmore {
+  font-size: 1.3rem;
+}
+.zoom:hover {
+  transform: scale(1.2);}
+
+.seller  {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.segment-one h2::before,
+.segment-two h2::before,
+.segment-three h2::before{
+  content: "|";
+  color: #03ab83;
+  padding-right: 10px;
+}
+
+.segment-one ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segment-one ul li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  line-height: 40px;
+}
+
+.segment-one ul li a{
+  color: #999;
+  text-decoration: none;
+}
+
+.segment-two a {
+  display: inline-block;
+  border-radius: 50%;
+  padding: .4rem;
+}
+
+.segment-three form input[type=submit]{
+  background-color: #03ab83;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff
+}
+
+.cartcolor:hover {
+  background-color: #03ab83;
+  color:white;
+  border: none;
+}
